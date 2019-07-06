@@ -237,21 +237,17 @@ Jawaban Praktikum
 
         return(hashTable)
 
-    print("====== Nomor 1 ======")
+    print("====== No. 1 ======")
     slot = remainFunction(55,10)
     print( slot)
-    print("====== Nomor 2 ======")
+    print("====== No. 2 ======")
     hashTable = createHashTable(11)
     print(hashTable)
-    print("====== Nomor 3 ======")
+    print("====== No. 3 ======")
     x=[54,26,93,17,77,31,44,55,20]
     c = chain(x,hashTable)
     print(c)
-    print("======================")
-    ##x=[54,26,93,17,77,31,44,55,20]
-    ##hashTable = chain(x,hashTable)
-    ##print(hashTable)
-    print("===== Nomor. 4 =======")
+    print("===== No. 4 =======")
     schHash(66, hashTable)
     schHash(54, hashTable)
     schHash(20, hashTable)
